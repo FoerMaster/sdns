@@ -83,4 +83,6 @@ jobs:
           name: "Nightly Build (${{ github.sha }})"
           body: "Auto release."
           files: dist/*
-          prerelease: true
+          draft: false
+          prerelease: false
+          make_latest: true
